@@ -1,4 +1,3 @@
 fdk
 cohere
-numpy
-time
+scikit-learn
