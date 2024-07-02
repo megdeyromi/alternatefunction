@@ -54,8 +54,8 @@ def handler(ctx, data: io.BytesIO=None):
     try:
         # Load input data
         body = json.loads(data.getvalue())
-        query = body.get("query")
-        file_path = body.get("file_path")
+        file_path = "hcm_api_doc.txt"
+        query = "Which API can I use to get the enrollments data"
 
         # Load documents from file
         extracted_text = load_documents(file_path)
